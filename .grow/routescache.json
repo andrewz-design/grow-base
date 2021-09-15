@@ -1,0 +1,134 @@
+{
+  "concrete": {},
+  "dynamic": {
+    "dev": {
+      "/": {
+        "options": {},
+        "value": {
+          "hashed": "ecb64917eb73c303aea6af1a72870d405a9779e40f5044e6f503741103ce6f22",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "en",
+            "pod_path": "/content/pages/home.yaml"
+          },
+          "pod_path": "/content/pages/home.yaml"
+        }
+      },
+      "/about/": {
+        "options": {},
+        "value": {
+          "hashed": "89165157cf3f71f31c4428eddb80a4e62909a3ecec473297b3bd82b884e6a8a0",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "en",
+            "pod_path": "/content/pages/about.md"
+          },
+          "pod_path": "/content/pages/about.md"
+        }
+      },
+      "/css/*": {
+        "options": null,
+        "value": {
+          "hashed": null,
+          "kind": "static",
+          "meta": {
+            "fingerprinted": true,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "path_format": "/css/",
+            "source_formats": [
+              "/dist/css/"
+            ],
+            "static_filter": {}
+          },
+          "pod_path": null
+        }
+      },
+      "/js/*": {
+        "options": null,
+        "value": {
+          "hashed": null,
+          "kind": "static",
+          "meta": {
+            "fingerprinted": true,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "path_format": "/js/",
+            "source_formats": [
+              "/dist/js/"
+            ],
+            "static_filter": {}
+          },
+          "pod_path": null
+        }
+      },
+      "/projects/": {
+        "options": {},
+        "value": {
+          "hashed": "791820a372311621519a4f0ce52774d1577b481cf8a2323dbc60b80cadcb1ac3",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "en",
+            "pod_path": "/content/pages/projects.md"
+          },
+          "pod_path": "/content/pages/projects.md"
+        }
+      },
+      "/sitemap.xml": {
+        "options": null,
+        "value": {
+          "hashed": null,
+          "kind": "sitemap",
+          "meta": {
+            "collections": null,
+            "filters": null,
+            "locales": null,
+            "path": "/sitemap.xml",
+            "template": null
+          },
+          "pod_path": null
+        }
+      },
+      "/static/*": {
+        "options": null,
+        "value": {
+          "hashed": null,
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "path_format": "/static/",
+            "source_formats": [
+              "/static/"
+            ],
+            "static_filter": {}
+          },
+          "pod_path": null
+        }
+      }
+    }
+  },
+  "version": 1
+}
