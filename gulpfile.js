@@ -15,6 +15,7 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
+const browserSync = require('browser-sync').create();
 
 const config = {
   JS_SOURCE_DIR: './source/js/composite/',
@@ -92,7 +93,19 @@ task('watch-js', function() {
   .pipe(dest(config.JS_OUT_DIR));
 });
 
+task('browser-sync', function () {
+  browserSync.init({
+    proxy: "localhost:8080"
+  });
+  watch('./source/').on('change', browserSync.reload);
+  watch('./partials/').on('change', browserSync.reload);
+  watch('./content/').on('change', browserSync.reload);
+  watch('./views/').on('change', browserSync.reload);
+  watch('./static/').on('change', browserSync.reload);
+});
+
 task('grow-build', parallel('compile-js', 'compile-sass'))
+//task('grow-run', parallel('compile-js', 'compile-sass'))
 
 exports.build = parallel('compile-js', 'compile-sass')
-exports.default = series('compile-sass', parallel('watch-js', 'watch-sass'))
+exports.default = series(parallel('watch-js', 'watch-sass', 'browser-sync'), 'compile-sass', 'compile-js')
