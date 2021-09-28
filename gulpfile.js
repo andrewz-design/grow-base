@@ -93,7 +93,9 @@ task('watch-js', function() {
 
 task('browser-sync', function() {
     browserSync.init({
-        proxy: "localhost:8080"
+        proxy: "localhost:8080",
+        ui: false,
+        ghostMode: false
     });
     watch('./source/').on('change', browserSync.reload);
     watch('./partials/').on('change', browserSync.reload);
