@@ -1,0 +1,12 @@
+<div class="header">
+    <h1 class="b f1 f-headline-ns tc db mb3 mb4-ns"><a class="near-black no-underline link dim" href="{{podspec.home.url}}">{{podspec.title}}</a></h1>
+    <div class="pa3 pa4-ns">
+        <ul class="tc pb3">
+            {% for item in g.docs('pages') %}
+            <li class="link dim gray f6 f5-ns dib mr3 {{" nav__items__item--active " if doc == item}}">
+                <a href="{{item.url.path}}">{{item.title}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

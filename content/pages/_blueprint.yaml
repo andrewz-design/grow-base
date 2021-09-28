@@ -1,2 +1,5 @@
-view: /views/base.html
 path: /{root}/{base}/
+view: /views/base.html
+routes:
+  home.yaml:
+    path: /{root}/

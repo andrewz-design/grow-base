@@ -3,33 +3,31 @@
     "/content/pages/about.md",
     "/content/pages/home.yaml",
     "/content/pages/projects.md",
-    "/dist/css/composite/global.min.css",
-    "/dist/js/composite/global.min.js",
-    "/partials/footer/footer.html",
-    "/partials/header/header.html",
-    "/static/images/favicon.png"
+    "/dist/css/main.min.css",
+    "/dist/js/main.min.js",
+    "/static/images/favicon.png",
+    "/views/partials/global/footer.html",
+    "/views/partials/global/header.html"
   ],
   "/content/pages/home.yaml": [
     "/content/pages/about.md",
     "/content/pages/home.yaml",
     "/content/pages/projects.md",
-    "/dist/css/composite/global.min.css",
-    "/dist/css/composite/home.min.css",
-    "/dist/js/composite/global.min.js",
-    "/dist/js/composite/home.min.js",
-    "/partials/footer/footer.html",
-    "/partials/header/header.html",
-    "/partials/hero/hero.html",
-    "/static/images/favicon.png"
+    "/dist/css/main.min.css",
+    "/dist/js/main.min.js",
+    "/static/images/favicon.png",
+    "/views/partials/global/footer.html",
+    "/views/partials/global/header.html",
+    "/views/partials/hero.html"
   ],
   "/content/pages/projects.md": [
     "/content/pages/about.md",
     "/content/pages/home.yaml",
     "/content/pages/projects.md",
-    "/dist/css/composite/global.min.css",
-    "/dist/js/composite/global.min.js",
-    "/partials/footer/footer.html",
-    "/partials/header/header.html",
-    "/static/images/favicon.png"
+    "/dist/css/main.min.css",
+    "/dist/js/main.min.js",
+    "/static/images/favicon.png",
+    "/views/partials/global/footer.html",
+    "/views/partials/global/header.html"
   ]
 }
