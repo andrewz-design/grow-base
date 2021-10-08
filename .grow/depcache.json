@@ -1,6 +1,13 @@
 {
   "/content/pages/about.md": [
-    "/content/pages/about.md"
+    "/content/pages/about.md",
+    "/content/pages/home.yaml",
+    "/content/pages/projects.md",
+    "/dist/css/main.min.css",
+    "/dist/js/main.min.js",
+    "/static/images/favicon.png",
+    "/views/partials/global/footer.html",
+    "/views/partials/global/header.html"
   ],
   "/content/pages/home.yaml": [
     "/content/pages/about.md",
@@ -14,6 +21,13 @@
     "/views/partials/hero.html"
   ],
   "/content/pages/projects.md": [
-    "/content/pages/projects.md"
+    "/content/pages/about.md",
+    "/content/pages/home.yaml",
+    "/content/pages/projects.md",
+    "/dist/css/main.min.css",
+    "/dist/js/main.min.js",
+    "/static/images/favicon.png",
+    "/views/partials/global/footer.html",
+    "/views/partials/global/header.html"
   ]
 }

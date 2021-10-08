@@ -98,7 +98,6 @@ task('browser-sync', function() {
         ghostMode: false
     });
     watch('./source/').on('change', browserSync.reload);
-    watch('./partials/').on('change', browserSync.reload);
     watch('./content/').on('change', browserSync.reload);
     watch('./views/').on('change', browserSync.reload);
     watch('./static/').on('change', browserSync.reload);
